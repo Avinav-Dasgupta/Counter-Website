@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    font-size: 75px;
+}
+
+.Button {
+    margin-top: 10px;
+    font-size: 100%;
+}
+
+#counter{
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+}
+
+#buttonContainer {
+  max-width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+}
