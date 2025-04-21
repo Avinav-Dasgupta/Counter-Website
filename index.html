@@ -8,21 +8,23 @@
   </head>
   <body>
     <header>
-      <h1>The Best Counter</h1>
+      <nav>
+        <div class="NavBar" id="navBar">
+          <p><u>THE BEST COUNTER</u></p>
+        <button class="Button" id="changeTheme">☀️</button>
+        </div>
+      </nav>
     </header>
+    <hr>
 
-    <!-- Main Body -->
     <main>
-      <!-- Counter Display -->
-      <p id="counter">0</p>
-
-      <!-- Handler Buttons -->
-      <div id="buttonContainer">
-        <button class="Button" id="decreaseCounter">Decrease Counter</button>
-        <button class="Button" id="increaseCounter">Increase Counter</button>
-        <button class="Button" id="resetCounter">Reset Counter</button>
-        <button id="changeTheme" class="Button" value="light" onclick="changeTheme()"> Change Theme
-          </button>
+      <div class="CounterArea">
+        <div class="BaseCounter">
+          <button class="Button" id="decreaseCounter">-</button>
+        <p id="counterText">0</p>
+        <button class="Button" id="increaseCounter">+</button>
+        </div>
+        <button class="Button" id="resetCounter">Reset</button>
       </div>
     </main>
 
